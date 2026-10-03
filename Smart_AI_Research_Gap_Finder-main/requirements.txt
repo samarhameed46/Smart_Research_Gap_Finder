@@ -1,0 +1,9 @@
+streamlit>=1.39,<2
+Groq>=0.11
+langchain-community>=0.3,<1
+langchain-text-splitters>=0.3,<2
+sentence-transformers>=3.1,<6
+faiss-cpu>=1.8,<2
+PyMuPDF>=1.24,<2
+numpy>=1.26,<3
+pydantic>=2.9,<3
