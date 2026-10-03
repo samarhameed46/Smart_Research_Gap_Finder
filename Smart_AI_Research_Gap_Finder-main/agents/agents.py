@@ -42,5 +42,18 @@ class ProposalAgent(BaseAgent):
 
 class ResearchManagerAgent:
     name = 'Research Manager Agent'
+
+    def __init__(self, rag_engine=None):
+        self.rag = rag_engine
+
     def plan(self):
-        return ['paper_analysis', 'comparison', 'critical_review', 'trends', 'gap_detection', 'verification', 'research_ideas', 'proposal']
+        return [
+            'paper_analysis',
+            'comparison',
+            'critical_review',
+            'trends',
+            'gap_detection',
+            'verification',
+            'research_ideas',
+            'proposal'
+        ]
